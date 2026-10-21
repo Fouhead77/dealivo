@@ -1,0 +1,90 @@
+[
+  {
+    "store": "Carrefour",
+    "title": "Catalogues Carrefour Hypermarché du moment",
+    "discount": "Promotions",
+    "condition": "catalogue",
+    "details": "Catalogues actuels notamment Au cœur du goût, Le Chef c'est moi 2 et Grand Prix de l'innovation.",
+    "starts": "2026-10-13",
+    "expires": "2026-10-26",
+    "source": "Carrefour",
+    "url": "https://www.carrefour.fr/catalogue/carrefour"
+  },
+  {
+    "store": "E.Leclerc",
+    "title": "Nos promos du moment",
+    "discount": "Promotions",
+    "condition": "catalogue",
+    "details": "Opérations promotionnelles publiées par E.Leclerc, dont les catalogues du 20 au 31 octobre 2026.",
+    "starts": "2026-10-20",
+    "expires": "2026-10-31",
+    "source": "E.Leclerc",
+    "url": "https://www.e.leclerc/prospectus"
+  },
+  {
+    "store": "Intermarché",
+    "title": "20% en avantage carte sur les bonbons",
+    "discount": "−20 %",
+    "condition": "dès 7 € d'achat, plafonné à 4 €",
+    "details": "Offre réservée aux porteurs de la carte de fidélité, après activation de l'e-coupon. Magasins participants et Drive.",
+    "starts": "2026-10-19",
+    "expires": "2026-10-25",
+    "source": "Intermarché",
+    "url": "https://www.intermarche.com/enseigne/edito/operations-et-conditions"
+  },
+  {
+    "store": "Lidl",
+    "title": "Exclus Web de la semaine",
+    "discount": "Promotions",
+    "condition": "du 19 au 22 octobre",
+    "details": "Lidl publie ses offres de la semaine et ses exclus web, avec des opérations Lidl Plus.",
+    "starts": "2026-10-19",
+    "expires": "2026-10-22",
+    "source": "Lidl",
+    "url": "https://www.lidl.fr/c/catalogues-en-ligne/s10017753"
+  },
+  {
+    "store": "ALDI",
+    "title": "Offres de la semaine",
+    "discount": "−40 % sur le 2e",
+    "condition": "sélection du 20 au 26 octobre",
+    "details": "Exemple documenté sur le site ALDI : fruits enrobés de chocolat TRÜ FRÜ à −40% sur le deuxième produit.",
+    "starts": "2026-10-20",
+    "expires": "2026-10-26",
+    "source": "ALDI",
+    "url": "https://www.aldi.fr/"
+  },
+  {
+    "store": "Magasins U",
+    "title": "10% reversés sur la Carte U",
+    "discount": "10 %",
+    "condition": "dès 5 € d'achat en boucherie & volaille",
+    "details": "Offre du 19 au 22 octobre 2026, après activation, dans les magasins participants en France métropolitaine.",
+    "starts": "2026-10-19",
+    "expires": "2026-10-22",
+    "source": "Courses U",
+    "url": "https://www.coursesu.com/conditions-generales-offres.html"
+  },
+  {
+    "store": "Auchan",
+    "title": "50% remboursés sur les jouets",
+    "discount": "50 %",
+    "condition": "de 50 € à 100 € d'achat",
+    "details": "Offre réservée aux porteurs d'une carte de fidélité, valable du 19 octobre au 15 novembre dans les hypermarchés participants.",
+    "starts": "2026-10-19",
+    "expires": "2026-11-15",
+    "source": "Auchan",
+    "url": "https://www.auchan.fr/reductions/ep-reductions"
+  },
+  {
+    "store": "Auchan",
+    "title": "15 € offerts en bons de réduction",
+    "discount": "15 €",
+    "condition": "3 bons de 5 €",
+    "details": "Offre personnelle avec un bon de 5 € du 20 au 26 octobre 2026 sous conditions et avec fidélité.",
+    "starts": "2026-10-20",
+    "expires": "2026-10-26",
+    "source": "Auchan",
+    "url": "https://www.auchan.fr/reductions/ep-reductions"
+  }
+]
