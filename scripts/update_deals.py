@@ -7,7 +7,6 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 DATA.mkdir(exist_ok=True)
 INDEX = ROOT / "index.html"
-
 SOURCES = [
     ("Carrefour", "https://www.carrefour.fr/"), ("E.Leclerc", "https://www.e.leclerc/"),
     ("Intermarché", "https://www.intermarche.com/"), ("Lidl", "https://www.lidl.fr/"),
@@ -15,7 +14,6 @@ SOURCES = [
     ("Auchan", "https://www.auchan.fr/"), ("Monoprix", "https://www.monoprix.fr/"),
     ("Casino", "https://www.casino.fr/"),
 ]
-
 SEED = [
  {"store":"Auchan","code":"OCTOBRE20","discount":"−20 €","condition":"dès 80 €","title":"Première commande","details":"20 € de remise immédiate pour une première commande Auchan.fr ou application, sur les courses éligibles.","expires":"2026-10-31","source":"Auchan","url":"https://www.auchan.fr/reductions/ep-reductions"},
  {"store":"Auchan","code":"OCTOBRE30","discount":"−30 €","condition":"dès 150 €","title":"Première commande","details":"30 € de remise immédiate pour une première commande Auchan.fr ou application, sur les courses éligibles.","expires":"2026-10-31","source":"Auchan","url":"https://www.auchan.fr/reductions/ep-reductions"},
@@ -33,28 +31,31 @@ for store, url in SOURCES:
 def fetch(url):
     try:
         req = Request(url, headers={"User-Agent":"DealivoBot/1.0 (+https://dealivo.netlify.app)"})
-        with urlopen(req, timeout=20) as r:
-            r.read(200000)
+        with urlopen(req, timeout=20) as r: r.read(200000)
         return True, "ok"
-    except Exception as exc:
-        return False, str(exc)[:160]
+    except Exception as exc: return False, str(exc)[:160]
 
-today = date.today(); now = datetime.now(timezone.utc).isoformat(); active=[]; statuses=[]
-for store, url in SOURCES:
-    ok, detail = fetch(url)
-    statuses.append({"store":store,"url":url,"reachable":ok,"detail":detail,"checkedAt":now})
+today=date.today(); now=datetime.now(timezone.utc).isoformat(); active=[]; statuses=[]
+for store,url in SOURCES:
+    ok,detail=fetch(url); statuses.append({"store":store,"url":url,"reachable":ok,"detail":detail,"checkedAt":now})
 for deal in SEED:
     exp=deal.get("expires")
     if exp and date.fromisoformat(exp) < today: continue
     d=dict(deal); d["checkedAt"]=now; active.append(d)
-payload={"updatedAt":now,"activeDeals":active,"sources":statuses,"policy":"No invented prices or coupons; expired dated offers are removed automatically."}
-(DATA/"active-deals.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
 
-# Keep the current static site in sync. The next Netlify deploy then publishes the refreshed dataset.
+# Merge manually curated, source-verified current supermarket operations.
+verified_path=DATA/"verified-current-promotions.json"
+if verified_path.exists():
+    for deal in json.loads(verified_path.read_text(encoding="utf-8")):
+        exp=deal.get("expires")
+        if exp and date.fromisoformat(exp) < today: continue
+        d=dict(deal); d["code"]=None; d["checkedAt"]=now; d["verifiedBySource"]=True; active.append(d)
+
+payload={"updatedAt":now,"activeDeals":active,"sources":statuses,"policy":"No invented prices or coupons; expired dated offers are removed automatically; curated operations require a source."}
+(DATA/"active-deals.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
 if INDEX.exists():
     html=INDEX.read_text(encoding="utf-8")
-    js=json.dumps(active, ensure_ascii=False, separators=(",",":"))
+    js=json.dumps(active,ensure_ascii=False,separators=(",",":"))
     html2=re.sub(r"const deals=\[.*?\];\s*let active=", "const deals="+js+";\nlet active=", html, count=1, flags=re.S)
-    if html2 != html:
-        INDEX.write_text(html2, encoding="utf-8")
+    if html2 != html: INDEX.write_text(html2,encoding="utf-8")
 print(f"Dealivo refresh: {len(active)} active records, {len(statuses)} sources checked")
