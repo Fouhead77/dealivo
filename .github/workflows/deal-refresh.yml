@@ -17,12 +17,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Refresh sources and remove expired offers
+      - name: Refresh dated offers
         run: python3 scripts/update_deals.py
-      - name: Commit refreshed data and storefront
+      - name: Extract source-documented discount candidates
+        run: python3 scripts/source_extractors.py
+      - name: Commit refreshed data
         run: |
           git config user.name 'dealivo-bot'
           git config user.email 'dealivo-bot@users.noreply.github.com'
-          git add data/active-deals.json index.html
+          git add data/active-deals.json data/source-offers.json
           git diff --cached --quiet || git commit -m 'chore: refresh deal data [skip ci]'
           git push
