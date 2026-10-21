@@ -1,0 +1,72 @@
+{
+  "updatedAt": "2026-10-21T17:58:03.389243+00:00",
+  "policy": "Product deals require an explicit current price plus a source-documented discount. No inferred old prices.",
+  "sources": [
+    {
+      "store": "Carrefour",
+      "source": "https://www.carrefour.fr/catalogue",
+      "reachable": false,
+      "error": "HTTP Error 403: Forbidden",
+      "products": []
+    },
+    {
+      "store": "E.Leclerc",
+      "source": "https://www.e.leclerc/prospectus",
+      "reachable": true,
+      "products": []
+    },
+    {
+      "store": "Intermarché",
+      "source": "https://www.intermarche.com/enseigne/edito/operations-et-conditions",
+      "reachable": false,
+      "error": "HTTP Error 403: Forbidden",
+      "products": []
+    },
+    {
+      "store": "Lidl",
+      "source": "https://www.lidl.fr/c/catalogues-en-ligne/s10017753",
+      "reachable": true,
+      "products": []
+    },
+    {
+      "store": "ALDI",
+      "source": "https://www.aldi.fr/",
+      "reachable": true,
+      "products": [
+        {
+          "store": "ALDI",
+          "title": "deType\":\"mgnl:contentNode\",\"imageL\":\"https://prd.an-pcm.com/dam/non-product-assets/fr/Digital/cms-content/homepage/2026/s43/S43_media_SDA_d.png\",\"imageM\":\"https://prd.an-pcm.com/da",
+          "price": 1.59,
+          "oldPrice": 1.99,
+          "discountPercent": 20,
+          "source": "https://www.aldi.fr/",
+          "verifiedBySource": true,
+          "checkedAt": "2026-10-21T17:58:05.321735+00:00"
+        },
+        {
+          "store": "ALDI",
+          "title": "tentNode\",\"imageL\":\"https://prd.an-pcm.com/dam/non-product-assets/fr/Digital/cms-content/homepage/2026/s43/S43_media_SDA_d.png\",\"imageM\":\"https://prd.an-pcm.com/dam/non-product-ass",
+          "price": 1.59,
+          "oldPrice": 1.99,
+          "discountPercent": 20,
+          "source": "https://www.aldi.fr/",
+          "verifiedBySource": true,
+          "checkedAt": "2026-10-21T17:58:05.321784+00:00"
+        }
+      ]
+    },
+    {
+      "store": "Magasins U",
+      "source": "https://www.coursesu.com/conditions-generales-offres.html",
+      "reachable": false,
+      "error": "HTTP Error 403: Forbidden",
+      "products": []
+    },
+    {
+      "store": "Auchan",
+      "source": "https://www.auchan.fr/reductions/ep-reductions",
+      "reachable": true,
+      "products": []
+    }
+  ]
+}
