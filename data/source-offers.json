@@ -1,0 +1,64 @@
+{
+  "updatedAt": "2026-10-21T17:55:53.157102+00:00",
+  "policy": "Only source-documented offers are eligible. Generic extraction never creates coupons or old prices.",
+  "sources": [
+    {
+      "store": "Carrefour",
+      "source": "https://www.carrefour.fr/",
+      "reachable": false,
+      "error": "HTTP Error 403: Forbidden",
+      "offers": []
+    },
+    {
+      "store": "E.Leclerc",
+      "source": "https://www.e.leclerc/",
+      "reachable": true,
+      "offers": []
+    },
+    {
+      "store": "Intermarché",
+      "source": "https://www.intermarche.com/",
+      "reachable": false,
+      "error": "HTTP Error 403: Forbidden",
+      "offers": []
+    },
+    {
+      "store": "Lidl",
+      "source": "https://www.lidl.fr/",
+      "reachable": true,
+      "offers": []
+    },
+    {
+      "store": "ALDI",
+      "source": "https://www.aldi.fr/",
+      "reachable": true,
+      "offers": []
+    },
+    {
+      "store": "Magasins U",
+      "source": "https://www.coursesu.com/",
+      "reachable": false,
+      "error": "HTTP Error 403: Forbidden",
+      "offers": []
+    },
+    {
+      "store": "Auchan",
+      "source": "https://www.auchan.fr/",
+      "reachable": true,
+      "offers": []
+    },
+    {
+      "store": "Monoprix",
+      "source": "https://www.monoprix.fr/",
+      "reachable": true,
+      "offers": []
+    },
+    {
+      "store": "Casino",
+      "source": "https://www.casino.fr/",
+      "reachable": false,
+      "error": "HTTP Error 403: Forbidden",
+      "offers": []
+    }
+  ]
+}
