@@ -1,82 +1,48 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#0b6b4f">
-<title>DEALIVO V1</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b6b4f"><title>DEALIVO · Promotions vérifiées</title>
 <style>
-:root{--green:#0b6b4f;--mint:#e8f6f0;--ink:#17231f;--muted:#6c7773;--line:#dfe7e3;--gold:#f3b51b;--red:#c84b4b;--bg:#f7faf8}
-*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink)}
-button,input{font:inherit}button{cursor:pointer;border:0}.app{max-width:1120px;margin:auto;padding:18px}
-header{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:18px}.brand{font-weight:900;font-size:28px;letter-spacing:-1px}.brand span{color:var(--green)}
-.location{background:white;border:1px solid var(--line);padding:9px 12px;border-radius:999px;color:var(--muted)}
-.hero{background:linear-gradient(135deg,#0b6b4f,#15946f);color:#fff;border-radius:24px;padding:24px;margin-bottom:18px;box-shadow:0 12px 30px #0b6b4f1c}
-.hero h1{margin:0 0 8px;font-size:32px}.hero p{margin:0 0 18px;color:#dff5ed}.search{display:flex;gap:8px}.search input{flex:1;padding:14px 16px;border-radius:14px;border:0;outline:0}.primary{background:#fff;color:var(--green);font-weight:800;padding:13px 16px;border-radius:14px}
-.tabs{display:flex;gap:8px;overflow:auto;margin:0 0 18px}.tab{padding:10px 14px;border-radius:999px;background:white;border:1px solid var(--line);white-space:nowrap}.tab.active{background:var(--green);color:#fff;border-color:var(--green)}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 4px 14px #17231f08}.deal{position:relative}.tag{display:inline-block;font-size:12px;font-weight:800;padding:5px 8px;border-radius:8px;background:var(--mint);color:var(--green);margin-bottom:10px}.product{font-weight:800;font-size:18px}.store{color:var(--muted);font-size:13px;margin-top:3px}.price{display:flex;align-items:baseline;gap:8px;margin:14px 0 5px}.now{font-size:26px;font-weight:900}.old{text-decoration:line-through;color:#9aa39f}.save{color:var(--green);font-weight:800;font-size:14px}.score{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);display:flex;justify-content:space-between}.score b{font-size:20px}.section{display:flex;align-items:center;justify-content:space-between;margin:26px 0 12px}.section h2{margin:0;font-size:21px}.small{color:var(--muted);font-size:13px}.empty{padding:28px;text-align:center;color:var(--muted);background:white;border:1px dashed var(--line);border-radius:18px}
-.modal{position:fixed;inset:0;background:#0b171380;display:none;align-items:flex-end;justify-content:center;padding:12px}.modal.open{display:flex}.sheet{background:#fff;border-radius:24px 24px 12px 12px;max-width:620px;width:100%;padding:20px;max-height:90vh;overflow:auto}.sheet h2{margin-top:0}.row{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--line)}.close{float:right;background:#eef2f0;border-radius:50%;width:36px;height:36px}.scorebig{text-align:center;background:var(--mint);padding:18px;border-radius:18px;margin:14px 0}.scorebig strong{font-size:48px;color:var(--green)}.notice{background:#fff8df;border:1px solid #f0d67c;padding:12px;border-radius:12px;font-size:13px;color:#66520b;margin-top:12px}
-.listbar{background:white;border:1px solid var(--line);padding:14px;border-radius:16px;margin-top:16px;display:flex;justify-content:space-between;align-items:center}
-@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.app{padding:12px}.hero h1{font-size:27px}.grid{grid-template-columns:1fr}.search{flex-direction:column}.primary{width:100%}}
+:root{--green:#0b6b4f;--mint:#e8f6f0;--ink:#17231f;--muted:#66736e;--line:#dfe7e3;--gold:#f3b51b;--bg:#f7faf8;--red:#c84b4b}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink)}button,input{font:inherit}button{cursor:pointer;border:0}.app{max-width:1120px;margin:auto;padding:18px}
+header{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:18px}.brand{font-weight:900;font-size:28px;letter-spacing:-1px}.brand span{color:var(--green)}.status{background:var(--mint);color:var(--green);border:1px solid #cde8dc;padding:8px 12px;border-radius:999px;font-size:13px;font-weight:800}
+.hero{background:linear-gradient(135deg,#0b6b4f,#15946f);color:#fff;border-radius:24px;padding:24px;margin-bottom:18px;box-shadow:0 12px 30px #0b6b4f1c}.hero h1{margin:0 0 8px;font-size:32px}.hero p{margin:0 0 18px;color:#dff5ed}.search{display:flex;gap:8px}.search input{flex:1;padding:14px 16px;border-radius:14px;border:0;outline:0}.primary{background:#fff;color:var(--green);font-weight:800;padding:13px 16px;border-radius:14px}
+.tabs{display:flex;gap:8px;overflow:auto;margin:0 0 18px}.tab{padding:10px 14px;border-radius:999px;background:#fff;border:1px solid var(--line);white-space:nowrap}.tab.active{background:var(--green);color:#fff;border-color:var(--green)}
+.section{display:flex;align-items:center;justify-content:space-between;margin:26px 0 12px}.section h2{margin:0;font-size:21px}.small{color:var(--muted);font-size:13px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 4px 14px #17231f08}.tag{display:inline-block;font-size:12px;font-weight:800;padding:5px 8px;border-radius:8px;background:var(--mint);color:var(--green);margin-bottom:10px}.product{font-weight:800;font-size:18px}.store{color:var(--muted);font-size:13px;margin-top:3px}.price{display:flex;align-items:baseline;gap:8px;margin:14px 0 5px}.discount{font-size:25px;font-weight:900;color:var(--green)}.condition{color:var(--muted);font-size:13px}.code{margin-top:13px;padding:12px;border:1px dashed #a9bdb5;border-radius:12px;background:#fbfdfc}.code strong{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:17px;letter-spacing:.5px}.meta{display:flex;justify-content:space-between;gap:8px;margin-top:12px;font-size:12px;color:var(--muted)}.verified{color:var(--green);font-weight:800}.cta{margin-top:13px;width:100%;padding:11px 12px;border-radius:11px;background:var(--ink);color:#fff;font-weight:800}.notice{background:#fff8df;border:1px solid #f0d67c;padding:13px;border-radius:14px;font-size:13px;color:#66520b;line-height:1.45}.empty{padding:28px;text-align:center;color:var(--muted);background:#fff;border:1px dashed var(--line);border-radius:18px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.stat{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px}.stat b{display:block;font-size:26px;margin-top:4px}.modal{position:fixed;inset:0;background:#0b171380;display:none;align-items:flex-end;justify-content:center;padding:12px}.modal.open{display:flex}.sheet{background:#fff;border-radius:24px 24px 12px 12px;max-width:620px;width:100%;padding:20px;max-height:90vh;overflow:auto}.sheet h2{margin-top:0}.close{float:right;background:#eef2f0;border-radius:50%;width:36px;height:36px}.row{display:flex;justify-content:space-between;gap:15px;padding:11px 0;border-bottom:1px solid var(--line)}a{color:inherit}
+@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.app{padding:12px}.hero h1{font-size:27px}.grid,.stats{grid-template-columns:1fr}.search{flex-direction:column}.primary{width:100%}.status{display:none}}
 </style>
 </head>
 <body>
 <div class="app">
-<header><div class="brand">DEALIVO<span>.</span></div><div class="location">📍 Lyon · 69008</div></header>
-<section class="hero">
-<h1>Chasse les bonnes affaires.</h1>
-<p>Promotions, coupons, cashback, prix net et qualité produit au même endroit.</p>
-<div class="search"><input id="barcode" inputmode="numeric" placeholder="Scanne ou saisis un code-barres…"><button class="primary" onclick="lookup()">📷 Scanner</button></div>
-</section>
-
-<div class="tabs" id="tabs">
-<button class="tab active" data-cat="Tout">Tout</button><button class="tab" data-cat="Alimentaire">🍎 Alimentaire</button><button class="tab" data-cat="Hygiène">🧴 Hygiène</button><button class="tab" data-cat="Maison">🏠 Maison</button><button class="tab" data-cat="Coupons">🎟️ Coupons</button><button class="tab" data-cat="Cashback">💰 Cashback</button>
-</div>
-
-<div class="section"><h2>🔥 Les bons plans du moment</h2><span class="small">DEALIVO V1 · données de démonstration</span></div>
+<header><div class="brand">DEALIVO<span>.</span></div><div class="status">✓ Données vérifiées par source · 21/10/2026</div></header>
+<section class="hero"><h1>Les vraies promos, sans chiffres inventés.</h1><p>Coupons et offres actuellement signalés comme actifs par les marchands ou des sources de vérification. Les conditions restent à respecter au panier.</p><div class="search"><input id="q" placeholder="Rechercher une enseigne ou un coupon…"><button class="primary" onclick="searchDeals()">🔎 Rechercher</button></div></section>
+<div class="tabs" id="tabs"><button class="tab active" data-cat="Tout">Tout</button><button class="tab" data-cat="Cdiscount">Cdiscount</button><button class="tab" data-cat="Auchan">Auchan</button><button class="tab" data-cat="Fnac">Fnac</button></div>
+<div class="section"><h2>🔥 Promotions en cours</h2><span class="small" id="count"></span></div>
 <div class="grid" id="deals"></div>
-
-<div class="section"><h2>💰 Mon économie</h2><span class="small">Simulation V1</span></div>
-<div class="grid" style="grid-template-columns:repeat(3,1fr);margin-bottom:8px">
- <div class="card"><div class="small">Économie potentielle</div><div class="product" style="font-size:26px;color:var(--green)">24,65 €</div><div class="small">sur les offres affichées</div></div>
- <div class="card"><div class="small">Meilleure remise</div><div class="product" style="font-size:26px">−55 %</div><div class="small">prix net estimé</div></div>
- <div class="card"><div class="small">Offres repérées</div><div class="product" style="font-size:26px">8</div><div class="small">promos + coupons</div></div>
+<div class="section"><h2>📊 Audit des données</h2></div>
+<div class="stats"><div class="stat"><span class="small">Offres affichées</span><b id="statOffers">0</b><span class="small">offres recensées</span></div><div class="stat"><span class="small">Codes promo</span><b id="statCodes">0</b><span class="small">codes publiés</span></div><div class="stat"><span class="small">Données fictives</span><b>0</b><span class="small">dans cette version</span></div></div>
+<div class="section"><h2>⚠️ Règle de fiabilité</h2></div>
+<div class="notice">DEALIVO ne présente plus les anciennes offres de démonstration comme réelles. Une offre est affichée ici parce qu'elle est signalée active par une source consultée le 21 octobre 2026. « Vérifié par source » ne signifie pas qu'un panier a été exécuté avec votre compte : les restrictions, stocks, produits éligibles et limites d'utilisation peuvent s'appliquer.</div>
 </div>
-
-<div class="section"><h2>🛒 Ma liste</h2><span class="small" id="listCount"></span></div>
-<div id="shopping"></div>
-</div>
-
-<div class="modal" id="modal"><div class="sheet">
-<button class="close" onclick="closeModal()">×</button><h2 id="modalTitle">Produit</h2><div id="modalBody"></div>
-</div></div>
-
+<div class="modal" id="modal"><div class="sheet"><button class="close" onclick="closeModal()">×</button><h2 id="modalTitle"></h2><div id="modalBody"></div></div></div>
 <script>
 const deals=[
-{name:"Café Arabica 100% moulu",store:"Intermarché",cat:"Alimentaire",normal:5.49,price:2.49,coupon:.50,cashback:.50,score:91,nutri:"B",composition:88},
-{name:"Lessive concentrée 40 lavages",store:"Carrefour",cat:"Maison",normal:8.99,price:4.99,coupon:1.50,cashback:1.00,score:86,nutri:"—",composition:82},
-{name:"Dentifrice protection complète",store:"Auchan",cat:"Hygiène",normal:3.20,price:1.60,coupon:.50,cashback:.30,score:88,nutri:"—",composition:90},
-{name:"Pâtes semi-complètes 500 g",store:"Lidl",cat:"Alimentaire",normal:1.79,price:.89,coupon:0,cashback:0,score:94,nutri:"A",composition:93},
-{name:"Biscuits chocolat",store:"Leclerc",cat:"Alimentaire",normal:3.29,price:1.99,coupon:.40,cashback:.25,score:67,nutri:"C",composition:61},
-{name:"Gel douche peau sensible",store:"Monoprix",cat:"Hygiène",normal:4.50,price:2.70,coupon:.60,cashback:.40,score:83,nutri:"—",composition:86},
-{name:"Huile d’olive vierge extra",store:"Carrefour",cat:"Alimentaire",normal:8.90,price:6.49,coupon:1.00,cashback:.50,score:89,nutri:"A",composition:91},
-{name:"Papier toilette 12 rouleaux",store:"Intermarché",cat:"Maison",normal:7.49,price:4.49,coupon:.75,cashback:.50,score:78,nutri:"—",composition:76}
+{store:'Cdiscount',code:'HELLO10',discount:'−10 €',condition:'dès 50 €',title:'Première commande',details:'10 € de remise pour les nouveaux clients dès 50 € d’achat.',expires:'01/01/2027',source:'Le Parisien',url:'https://www.cdiscount.com/'},
+{store:'Cdiscount',code:'10PRCENT',discount:'−10 %',condition:'dès 150 €',title:'Nouveaux clients',details:'10 % de remise dès 150 € d’achat, réservé aux nouveaux clients.',expires:'01/01/2027',source:'Le Parisien',url:'https://www.cdiscount.com/'},
+{store:'Cdiscount',code:'10MODE49',discount:'−10 %',condition:'dès 49 €',title:'Sélection mode',details:'10 % de remise sur une sélection mode et accessoires.',expires:'30/10/2026',source:'Le Parisien',url:'https://www.cdiscount.com/'},
+{store:'Cdiscount',code:'B&D59',discount:'−20 %',condition:'dès 59 €',title:'Black+Decker',details:'20 % de remise sur une sélection de produits Black+Decker.',expires:'23/10/2026',source:'Le Parisien',url:'https://www.cdiscount.com/'},
+{store:'Cdiscount',code:'TEL15D99',discount:'−15 €',condition:'dès 99 €',title:'Téléphonie',details:'15 € de remise sur une sélection de téléphones.',expires:'21/10/2026',source:'Le Parisien',url:'https://www.cdiscount.com/'},
+{store:'Cdiscount',code:'HALLOWEEN26',discount:'−10 %',condition:'dès 30 €',title:'Halloween',details:'10 % de remise sur une sélection d’articles Halloween.',expires:'01/11/2026',source:'Le Parisien',url:'https://www.cdiscount.com/'},
+{store:'Auchan',code:'OCTOBRE20',discount:'−20 €',condition:'dès 80 €',title:'Première commande',details:'20 € de remise immédiate pour une première commande Auchan.fr ou application, sur les courses éligibles.',expires:'31/10/2026',source:'Auchan',url:'https://www.auchan.fr/reductions/ep-reductions'},
+{store:'Auchan',code:'OCTOBRE30',discount:'−30 €',condition:'dès 150 €',title:'Première commande',details:'30 € de remise immédiate pour une première commande Auchan.fr ou application, sur les courses éligibles.',expires:'31/10/2026',source:'Auchan',url:'https://www.auchan.fr/reductions/ep-reductions'},
+{store:'Fnac',code:'KIDS26',discount:'−10 €',condition:'dès 50 €',title:'Jeux & jouets',details:'10 € offerts dès 50 € sur une sélection jeux et jouets.',expires:'01/11/2026',source:'Fnac',url:'https://www.fnac.com/l368532/Precommandez-les-nouveautes-jeux-jouets'}
 ];
-let list=JSON.parse(localStorage.getItem('dealivo-list')||'[]');
-function eur(v){return v.toLocaleString('fr-FR',{style:'currency',currency:'EUR'});}
-function net(d){return Math.max(0,d.price-d.coupon-d.cashback);}
-function render(cat='Tout'){
- const items=cat==='Tout'||cat==='Coupons'||cat==='Cashback'?deals.filter(d=>cat==='Tout'||(cat==='Coupons'?d.coupon>0:d.cashback>0)):deals.filter(d=>d.cat===cat);
- document.getElementById('deals').innerHTML=items.map((d,i)=>`<article class="card deal"><span class="tag">${d.coupon||d.cashback?'PROMO + AVANTAGE':'BON PLAN'}</span><div class="product">${d.name}</div><div class="store">${d.store} · ${d.cat}</div><div class="price"><span class="now">${eur(net(d))}</span><span class="old">${eur(d.normal)}</span></div><div class="save">−${Math.round((1-net(d)/d.normal)*100)} % prix net estimé</div><div class="score"><span>Score DEALIVO</span><b>${d.score}/100</b></div><button style="margin-top:12px;padding:10px 12px;border-radius:10px;background:var(--ink);color:white" onclick="details(${deals.indexOf(d)})">Voir le détail</button></article>`).join('');
-}
-function details(i){const d=deals[i];document.getElementById('modalTitle').textContent=d.name;document.getElementById('modalBody').innerHTML=`<div class="scorebig"><div>Score DEALIVO</div><strong>${d.score}/100</strong><div>Nutri-Score officiel : ${d.nutri}</div></div><div class="row"><span>Prix normal</span><b>${eur(d.normal)}</b></div><div class="row"><span>Prix promo</span><b>${eur(d.price)}</b></div><div class="row"><span>Coupon</span><b>− ${eur(d.coupon)}</b></div><div class="row"><span>Cashback simulé</span><b>− ${eur(d.cashback)}</b></div><div class="row"><span>Prix net estimé</span><b>${eur(net(d))}</b></div><div class="row"><span>Composition</span><b>${d.composition}/100</b></div><div class="notice">⚠️ Cashback et offres de démonstration : V1 simulée. La compatibilité réelle entre promo, coupon et cashback devra être vérifiée auprès de chaque source.</div><button style="margin-top:14px;width:100%;padding:13px;border-radius:12px;background:var(--green);color:white;font-weight:800" onclick="add(${i})">Ajouter à ma liste</button>`;document.getElementById('modal').classList.add('open')}
+let active='Tout';
+function render(){const q=(document.getElementById('q').value||'').toLowerCase().trim();const items=deals.filter(d=>(active==='Tout'||d.store===active)&&(!q||(d.store+' '+d.code+' '+d.title+' '+d.details).toLowerCase().includes(q)));document.getElementById('count').textContent=items.length+' offre(s)';document.getElementById('statOffers').textContent=deals.length;document.getElementById('statCodes').textContent=deals.filter(d=>d.code).length;document.getElementById('deals').innerHTML=items.length?items.map((d,i)=>{const real=deals.indexOf(d);return `<article class="card"><span class="tag">COUPON</span><div class="product">${d.title}</div><div class="store">${d.store}</div><div class="price"><span class="discount">${d.discount}</span><span class="condition">${d.condition}</span></div><div class="code">Code : <strong>${d.code}</strong></div><div class="meta"><span>Expire : ${d.expires}</span><span class="verified">✓ ${d.source}</span></div><button class="cta" onclick="details(${real})">Voir les conditions</button></article>`}).join(''):'<div class="empty" style="grid-column:1/-1">Aucune offre ne correspond à ta recherche.</div>'}
+function details(i){const d=deals[i];document.getElementById('modalTitle').textContent=d.store+' · '+d.title;document.getElementById('modalBody').innerHTML=`<div class="row"><span>Réduction</span><b>${d.discount}</b></div><div class="row"><span>Condition</span><b>${d.condition}</b></div><div class="row"><span>Code</span><b>${d.code}</b></div><div class="row"><span>Validité indiquée</span><b>jusqu’au ${d.expires}</b></div><p>${d.details}</p><div class="notice">Source : ${d.source}. Offre recensée le 21/10/2026. Les conditions exactes du marchand prévalent, notamment les produits éligibles, limites d’utilisation et exclusions.</div><a href="${d.url}" target="_blank" rel="noopener" style="display:block;margin-top:14px;text-align:center;padding:13px;border-radius:12px;background:var(--green);color:#fff;text-decoration:none;font-weight:800">Ouvrir le site du marchand ↗</a>`;document.getElementById('modal').classList.add('open')}
 function closeModal(){document.getElementById('modal').classList.remove('open')}
-function add(i){if(!list.includes(i)){list.push(i);localStorage.setItem('dealivo-list',JSON.stringify(list));renderList()}closeModal()}
-function renderList(){document.getElementById('listCount').textContent=list.length?`${list.length} article(s)`:'';document.getElementById('shopping').innerHTML=list.length?`<div class="listbar"><div><b>${list.length} produit(s)</b><div class="small">Économie estimée : ${eur(list.reduce((s,i)=>s+deals[i].normal-net(deals[i]),0))}</div></div><button onclick="clearList()" style="padding:10px 12px;border-radius:10px;background:#eef2f0">Vider</button></div>`:'<div class="empty">Ta liste est vide. Ajoute des produits depuis les offres.</div>'}
-function clearList(){list=[];localStorage.setItem('dealivo-list','[]');renderList()}
-async function lookup(){const code=document.getElementById('barcode').value.trim();if(!code){alert('Saisis un code-barres pour lancer la recherche.');return}document.getElementById('modalTitle').textContent='Recherche produit';document.getElementById('modalBody').innerHTML='<div class="empty">Recherche Open Food Facts en cours…</div>';document.getElementById('modal').classList.add('open');try{const r=await fetch(`https://world.openfoodfacts.org/api/v2/product/${encodeURIComponent(code)}.json`);const j=await r.json();if(!j.product){document.getElementById('modalBody').innerHTML='<div class="empty">Produit introuvable dans Open Food Facts.</div>';return}const p=j.product;document.getElementById('modalTitle').textContent=p.product_name_fr||p.product_name||'Produit trouvé';document.getElementById('modalBody').innerHTML=`<div class="scorebig"><div>Nutri-Score officiel</div><strong>${(p.nutriscore_grade||'—').toUpperCase()}</strong><div>Source : Open Food Facts</div></div><div class="row"><span>Marque</span><b>${p.brands||'—'}</b></div><div class="row"><span>Catégories</span><b>${p.categories||'—'}</b></div><div class="row"><span>Ingrédients</span><b>${p.ingredients_text_fr||p.ingredients_text||'Données indisponibles'}</b></div><div class="notice">Les prix, promotions et cashback ne sont pas déduits de cette recherche produit.</div>`}catch(e){document.getElementById('modalBody').innerHTML='<div class="empty">Impossible de joindre Open Food Facts pour le moment.</div>'}}
-document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');render(b.dataset.cat)}));
-render();renderList();
+function searchDeals(){render()}
+document.getElementById('q').addEventListener('input',render);document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');active=b.dataset.cat;render()}));render();
 </script>
-</body>
-</html>
+</body></html>
