@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T10:16:32.032855+00:00",
+  "updatedAt": "2026-10-24T09:39:12.404273+00:00",
   "activeDeals": [
     {
       "store": "Auchan",
@@ -11,7 +11,7 @@
       "expires": "2026-10-31",
       "source": "Auchan",
       "url": "https://www.auchan.fr/reductions/ep-reductions",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Auchan",
@@ -23,7 +23,7 @@
       "expires": "2026-10-31",
       "source": "Auchan",
       "url": "https://www.auchan.fr/reductions/ep-reductions",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Cdiscount",
@@ -35,7 +35,7 @@
       "expires": "2027-01-01",
       "source": "Le Parisien",
       "url": "https://www.cdiscount.com/",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Cdiscount",
@@ -47,7 +47,7 @@
       "expires": "2027-01-01",
       "source": "Le Parisien",
       "url": "https://www.cdiscount.com/",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Cdiscount",
@@ -59,19 +59,7 @@
       "expires": "2026-10-30",
       "source": "Le Parisien",
       "url": "https://www.cdiscount.com/",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
-    },
-    {
-      "store": "Cdiscount",
-      "code": "B&D59",
-      "discount": "−20 %",
-      "condition": "dès 59 €",
-      "title": "Black+Decker",
-      "details": "20 % de remise sur une sélection de produits Black+Decker.",
-      "expires": "2026-10-23",
-      "source": "Le Parisien",
-      "url": "https://www.cdiscount.com/",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Cdiscount",
@@ -83,7 +71,7 @@
       "expires": "2026-11-01",
       "source": "Le Parisien",
       "url": "https://www.cdiscount.com/",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Fnac",
@@ -95,7 +83,7 @@
       "expires": "2026-11-01",
       "source": "Fnac",
       "url": "https://www.fnac.com/l368532/Precommandez-les-nouveautes-jeux-jouets",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Carrefour",
@@ -107,7 +95,7 @@
       "expires": null,
       "source": "Carrefour",
       "url": "https://www.carrefour.fr/",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "E.Leclerc",
@@ -119,7 +107,7 @@
       "expires": null,
       "source": "E.Leclerc",
       "url": "https://www.e.leclerc/",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Intermarché",
@@ -131,7 +119,7 @@
       "expires": null,
       "source": "Intermarché",
       "url": "https://www.intermarche.com/",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Lidl",
@@ -143,7 +131,7 @@
       "expires": null,
       "source": "Lidl",
       "url": "https://www.lidl.fr/",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "ALDI",
@@ -155,7 +143,7 @@
       "expires": null,
       "source": "ALDI",
       "url": "https://www.aldi.fr/",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Magasins U",
@@ -167,7 +155,7 @@
       "expires": null,
       "source": "Magasins U",
       "url": "https://www.coursesu.com/",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Auchan",
@@ -179,7 +167,7 @@
       "expires": null,
       "source": "Auchan",
       "url": "https://www.auchan.fr/",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Monoprix",
@@ -191,7 +179,7 @@
       "expires": null,
       "source": "Monoprix",
       "url": "https://www.monoprix.fr/",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Casino",
@@ -203,7 +191,7 @@
       "expires": null,
       "source": "Casino",
       "url": "https://www.casino.fr/",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Carrefour",
@@ -216,7 +204,7 @@
       "source": "Carrefour",
       "url": "https://www.carrefour.fr/catalogue/carrefour",
       "code": null,
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00",
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00",
       "verifiedBySource": true
     },
     {
@@ -230,7 +218,7 @@
       "source": "E.Leclerc",
       "url": "https://www.e.leclerc/prospectus",
       "code": null,
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00",
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00",
       "verifiedBySource": true
     },
     {
@@ -244,7 +232,7 @@
       "source": "Intermarché",
       "url": "https://www.intermarche.com/enseigne/edito/operations-et-conditions",
       "code": null,
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00",
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00",
       "verifiedBySource": true
     },
     {
@@ -258,7 +246,7 @@
       "source": "ALDI",
       "url": "https://www.aldi.fr/",
       "code": null,
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00",
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00",
       "verifiedBySource": true
     },
     {
@@ -272,7 +260,7 @@
       "source": "Auchan",
       "url": "https://www.auchan.fr/reductions/ep-reductions",
       "code": null,
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00",
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00",
       "verifiedBySource": true
     },
     {
@@ -286,7 +274,7 @@
       "source": "Auchan",
       "url": "https://www.auchan.fr/reductions/ep-reductions",
       "code": null,
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00",
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00",
       "verifiedBySource": true
     }
   ],
@@ -296,63 +284,63 @@
       "url": "https://www.carrefour.fr/",
       "reachable": false,
       "detail": "HTTP Error 403: Forbidden",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "E.Leclerc",
       "url": "https://www.e.leclerc/",
       "reachable": true,
       "detail": "ok",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Intermarché",
       "url": "https://www.intermarche.com/",
       "reachable": false,
       "detail": "HTTP Error 403: Forbidden",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Lidl",
       "url": "https://www.lidl.fr/",
       "reachable": true,
       "detail": "ok",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "ALDI",
       "url": "https://www.aldi.fr/",
       "reachable": true,
       "detail": "ok",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Magasins U",
       "url": "https://www.coursesu.com/",
       "reachable": false,
       "detail": "HTTP Error 403: Forbidden",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Auchan",
       "url": "https://www.auchan.fr/",
       "reachable": true,
       "detail": "ok",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Monoprix",
       "url": "https://www.monoprix.fr/",
       "reachable": true,
       "detail": "ok",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     },
     {
       "store": "Casino",
       "url": "https://www.casino.fr/",
       "reachable": false,
       "detail": "HTTP Error 403: Forbidden",
-      "checkedAt": "2026-10-23T10:16:32.032855+00:00"
+      "checkedAt": "2026-10-24T09:39:12.404273+00:00"
     }
   ],
   "policy": "No invented prices or coupons; expired dated offers are removed automatically; curated operations require a source."
