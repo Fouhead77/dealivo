@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T11:19:13.890753+00:00",
+  "updatedAt": "2026-10-27T10:44:13.792313+00:00",
   "policy": "Product deals require an explicit current price plus a source-documented discount. No inferred old prices.",
   "sources": [
     {
@@ -41,7 +41,7 @@
           "discountPercent": 23,
           "source": "https://www.aldi.fr/",
           "verifiedBySource": true,
-          "checkedAt": "2026-10-26T11:19:15.026258+00:00"
+          "checkedAt": "2026-10-27T10:44:15.699213+00:00"
         },
         {
           "store": "ALDI",
@@ -51,7 +51,7 @@
           "discountPercent": 23,
           "source": "https://www.aldi.fr/",
           "verifiedBySource": true,
-          "checkedAt": "2026-10-26T11:19:15.026322+00:00"
+          "checkedAt": "2026-10-27T10:44:15.699276+00:00"
         }
       ]
     },
