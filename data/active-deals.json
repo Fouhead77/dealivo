@@ -1,30 +1,6 @@
 {
-  "updatedAt": "2026-10-31T11:00:08.476977+00:00",
+  "updatedAt": "2026-11-01T11:55:38.716165+00:00",
   "activeDeals": [
-    {
-      "store": "Auchan",
-      "code": "OCTOBRE20",
-      "discount": "−20 €",
-      "condition": "dès 80 €",
-      "title": "Première commande",
-      "details": "20 € de remise immédiate pour une première commande Auchan.fr ou application, sur les courses éligibles.",
-      "expires": "2026-10-31",
-      "source": "Auchan",
-      "url": "https://www.auchan.fr/reductions/ep-reductions",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
-    },
-    {
-      "store": "Auchan",
-      "code": "OCTOBRE30",
-      "discount": "−30 €",
-      "condition": "dès 150 €",
-      "title": "Première commande",
-      "details": "30 € de remise immédiate pour une première commande Auchan.fr ou application, sur les courses éligibles.",
-      "expires": "2026-10-31",
-      "source": "Auchan",
-      "url": "https://www.auchan.fr/reductions/ep-reductions",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
-    },
     {
       "store": "Cdiscount",
       "code": "HELLO10",
@@ -35,7 +11,7 @@
       "expires": "2027-01-01",
       "source": "Le Parisien",
       "url": "https://www.cdiscount.com/",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Cdiscount",
@@ -47,7 +23,7 @@
       "expires": "2027-01-01",
       "source": "Le Parisien",
       "url": "https://www.cdiscount.com/",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Cdiscount",
@@ -59,7 +35,7 @@
       "expires": "2026-11-01",
       "source": "Le Parisien",
       "url": "https://www.cdiscount.com/",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Fnac",
@@ -71,7 +47,7 @@
       "expires": "2026-11-01",
       "source": "Fnac",
       "url": "https://www.fnac.com/l368532/Precommandez-les-nouveautes-jeux-jouets",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Carrefour",
@@ -83,7 +59,7 @@
       "expires": null,
       "source": "Carrefour",
       "url": "https://www.carrefour.fr/",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "E.Leclerc",
@@ -95,7 +71,7 @@
       "expires": null,
       "source": "E.Leclerc",
       "url": "https://www.e.leclerc/",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Intermarché",
@@ -107,7 +83,7 @@
       "expires": null,
       "source": "Intermarché",
       "url": "https://www.intermarche.com/",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Lidl",
@@ -119,7 +95,7 @@
       "expires": null,
       "source": "Lidl",
       "url": "https://www.lidl.fr/",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "ALDI",
@@ -131,7 +107,7 @@
       "expires": null,
       "source": "ALDI",
       "url": "https://www.aldi.fr/",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Magasins U",
@@ -143,7 +119,7 @@
       "expires": null,
       "source": "Magasins U",
       "url": "https://www.coursesu.com/",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Auchan",
@@ -155,7 +131,7 @@
       "expires": null,
       "source": "Auchan",
       "url": "https://www.auchan.fr/",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Monoprix",
@@ -167,7 +143,7 @@
       "expires": null,
       "source": "Monoprix",
       "url": "https://www.monoprix.fr/",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Casino",
@@ -179,21 +155,7 @@
       "expires": null,
       "source": "Casino",
       "url": "https://www.casino.fr/",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
-    },
-    {
-      "store": "E.Leclerc",
-      "title": "Nos promos du moment",
-      "discount": "Promotions",
-      "condition": "catalogue",
-      "details": "Opérations promotionnelles publiées par E.Leclerc, dont les catalogues du 20 au 31 octobre 2026.",
-      "starts": "2026-10-20",
-      "expires": "2026-10-31",
-      "source": "E.Leclerc",
-      "url": "https://www.e.leclerc/prospectus",
-      "code": null,
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00",
-      "verifiedBySource": true
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Auchan",
@@ -206,7 +168,7 @@
       "source": "Auchan",
       "url": "https://www.auchan.fr/reductions/ep-reductions",
       "code": null,
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00",
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00",
       "verifiedBySource": true
     }
   ],
@@ -216,63 +178,63 @@
       "url": "https://www.carrefour.fr/",
       "reachable": false,
       "detail": "HTTP Error 403: Forbidden",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "E.Leclerc",
       "url": "https://www.e.leclerc/",
       "reachable": true,
       "detail": "ok",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Intermarché",
       "url": "https://www.intermarche.com/",
       "reachable": false,
       "detail": "HTTP Error 403: Forbidden",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Lidl",
       "url": "https://www.lidl.fr/",
       "reachable": true,
       "detail": "ok",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "ALDI",
       "url": "https://www.aldi.fr/",
       "reachable": true,
       "detail": "ok",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Magasins U",
       "url": "https://www.coursesu.com/",
       "reachable": false,
       "detail": "HTTP Error 403: Forbidden",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Auchan",
       "url": "https://www.auchan.fr/",
       "reachable": true,
       "detail": "ok",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Monoprix",
       "url": "https://www.monoprix.fr/",
       "reachable": true,
       "detail": "ok",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     },
     {
       "store": "Casino",
       "url": "https://www.casino.fr/",
       "reachable": false,
       "detail": "HTTP Error 403: Forbidden",
-      "checkedAt": "2026-10-31T11:00:08.476977+00:00"
+      "checkedAt": "2026-11-01T11:55:38.716165+00:00"
     }
   ],
   "policy": "No invented prices or coupons; expired dated offers are removed automatically; curated operations require a source."
