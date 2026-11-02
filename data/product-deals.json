@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T11:55:46.642844+00:00",
+  "updatedAt": "2026-11-02T13:41:35.612842+00:00",
   "policy": "Product deals require an explicit current price plus a source-documented discount. No inferred old prices.",
   "sources": [
     {
@@ -35,23 +35,23 @@
       "products": [
         {
           "store": "ALDI",
-          "title": "nodeType\":\"mgnl:contentNode\",\"imageL\":\"https://prd.an-pcm.com/dam/non-product-assets/fr/Digital/cms-content/homepage/2026/s44/push/S44_media_SDA_d.png\",\"imageM\":\"https://prd.an-pcm",
-          "price": 1.99,
-          "oldPrice": 2.59,
-          "discountPercent": 23,
+          "title": "gnl:contentNode\",\"imageL\":\"https://prd.an-pcm.com/dam/non-product-assets/fr/Digital/cms-content/homepage/2026/s45/push/S45_media_SDA_d.png\",\"imageM\":\"https://prd.an-pcm.com/dam/non",
+          "price": 3.99,
+          "oldPrice": 4.99,
+          "discountPercent": 20,
           "source": "https://www.aldi.fr/",
           "verifiedBySource": true,
-          "checkedAt": "2026-11-01T11:55:47.792704+00:00"
+          "checkedAt": "2026-11-02T13:41:36.732640+00:00"
         },
         {
           "store": "ALDI",
-          "title": "ontentNode\",\"imageL\":\"https://prd.an-pcm.com/dam/non-product-assets/fr/Digital/cms-content/homepage/2026/s44/push/S44_media_SDA_d.png\",\"imageM\":\"https://prd.an-pcm.com/dam/non-prod",
-          "price": 1.99,
-          "oldPrice": 2.59,
-          "discountPercent": 23,
+          "title": "\"imageL\":\"https://prd.an-pcm.com/dam/non-product-assets/fr/Digital/cms-content/homepage/2026/s45/push/S45_media_SDA_d.png\",\"imageM\":\"https://prd.an-pcm.com/dam/non-product-assets/f",
+          "price": 3.99,
+          "oldPrice": 4.99,
+          "discountPercent": 20,
           "source": "https://www.aldi.fr/",
           "verifiedBySource": true,
-          "checkedAt": "2026-11-01T11:55:47.792763+00:00"
+          "checkedAt": "2026-11-02T13:41:36.732707+00:00"
         }
       ]
     },
