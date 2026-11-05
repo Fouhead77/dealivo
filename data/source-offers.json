@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T13:08:48.146387+00:00",
+  "updatedAt": "2026-11-05T13:22:03.340774+00:00",
   "policy": "Only source-documented offers are eligible. Generic extraction never creates coupons or old prices.",
   "sources": [
     {
@@ -57,7 +57,7 @@
       "store": "Casino",
       "source": "https://www.casino.fr/",
       "reachable": false,
-      "error": "<urlopen error timed out>",
+      "error": "HTTP Error 403: Forbidden",
       "offers": []
     }
   ]
