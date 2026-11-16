@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T12:52:28.469175+00:00",
+  "updatedAt": "2026-11-16T13:51:31.513664+00:00",
   "policy": "Product deals require an explicit current price plus a source-documented discount. No inferred old prices.",
   "sources": [
     {
@@ -32,28 +32,7 @@
       "store": "ALDI",
       "source": "https://www.aldi.fr/",
       "reachable": true,
-      "products": [
-        {
-          "store": "ALDI",
-          "title": "nl:contentNode\",\"imageL\":\"https://prd.an-pcm.com/dam/non-product-assets/fr/Digital/cms-content/homepage/2026/s46/push/S45_media_SDA_d.png\",\"imageM\":\"https://prd.an-pcm.com/dam/non-",
-          "price": 1.25,
-          "oldPrice": 1.59,
-          "discountPercent": 21,
-          "source": "https://www.aldi.fr/",
-          "verifiedBySource": true,
-          "checkedAt": "2026-11-15T12:52:30.063236+00:00"
-        },
-        {
-          "store": "ALDI",
-          "title": "imageL\":\"https://prd.an-pcm.com/dam/non-product-assets/fr/Digital/cms-content/homepage/2026/s46/push/S45_media_SDA_d.png\",\"imageM\":\"https://prd.an-pcm.com/dam/non-product-assets/fr",
-          "price": 1.25,
-          "oldPrice": 1.59,
-          "discountPercent": 21,
-          "source": "https://www.aldi.fr/",
-          "verifiedBySource": true,
-          "checkedAt": "2026-11-15T12:52:30.063326+00:00"
-        }
-      ]
+      "products": []
     },
     {
       "store": "Magasins U",
