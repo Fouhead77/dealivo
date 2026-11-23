@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T13:28:57.058983+00:00",
+  "updatedAt": "2026-11-23T16:15:49.684988+00:00",
   "policy": "Product deals require an explicit current price plus a source-documented discount. No inferred old prices.",
   "sources": [
     {
@@ -32,7 +32,68 @@
       "store": "ALDI",
       "source": "https://www.aldi.fr/",
       "reachable": true,
-      "products": []
+      "products": [
+        {
+          "store": "ALDI",
+          "title": " cuisine, du samedi 28/11 au lundi 30/11\"} {\"@context\":\"https://schema.org\",\"@type\":\"ImageObject\",\"author\":\"\",\"contentLocation\":\"\",\"contentUrl\":\"https://prd.an-pcm.com/dam/non-prod",
+          "price": 3.59,
+          "oldPrice": 4.49,
+          "discountPercent": 20,
+          "source": "https://www.aldi.fr/",
+          "verifiedBySource": true,
+          "checkedAt": "2026-11-23T16:15:51.337653+00:00"
+        },
+        {
+          "store": "ALDI",
+          "title": "di 28/11 au lundi 30/11\"} {\"@context\":\"https://schema.org\",\"@type\":\"ImageObject\",\"author\":\"\",\"contentLocation\":\"\",\"contentUrl\":\"https://prd.an-pcm.com/dam/non-product-assets/fr/Dig",
+          "price": 3.59,
+          "oldPrice": 4.49,
+          "discountPercent": 20,
+          "source": "https://www.aldi.fr/",
+          "verifiedBySource": true,
+          "checkedAt": "2026-11-23T16:15:51.337706+00:00"
+        },
+        {
+          "store": "ALDI",
+          "title": "ocation\":\"\",\"contentUrl\":\"https://prd.an-pcm.com/dam/non-product-assets/fr/Digital/cms-content/homepage/2026/s48/push/S48_media-chocolat-m.png\",\"datePublished\":\"\",\"description\":\"Dé",
+          "price": 3.59,
+          "oldPrice": 4.49,
+          "discountPercent": 20,
+          "source": "https://www.aldi.fr/",
+          "verifiedBySource": true,
+          "checkedAt": "2026-11-23T16:15:51.337734+00:00"
+        },
+        {
+          "store": "ALDI",
+          "title": "entUrl\":\"https://prd.an-pcm.com/dam/non-product-assets/fr/Digital/cms-content/homepage/2026/s48/push/S48_media-chocolat-m.png\",\"datePublished\":\"\",\"description\":\"Découvrez nos Ballo",
+          "price": 3.59,
+          "oldPrice": 4.49,
+          "discountPercent": 20,
+          "source": "https://www.aldi.fr/",
+          "verifiedBySource": true,
+          "checkedAt": "2026-11-23T16:15:51.337757+00:00"
+        },
+        {
+          "store": "ALDI",
+          "title": ":contentNode\",\"imageL\":\"https://prd.an-pcm.com/dam/non-product-assets/fr/Digital/cms-content/homepage/2026/s48/push/S48_media-chocolat-d.png\",\"imageM\":\"https://prd.an-pcm.com/dam/n",
+          "price": 3.59,
+          "oldPrice": 4.49,
+          "discountPercent": 20,
+          "source": "https://www.aldi.fr/",
+          "verifiedBySource": true,
+          "checkedAt": "2026-11-23T16:15:51.339914+00:00"
+        },
+        {
+          "store": "ALDI",
+          "title": "ageL\":\"https://prd.an-pcm.com/dam/non-product-assets/fr/Digital/cms-content/homepage/2026/s48/push/S48_media-chocolat-d.png\",\"imageM\":\"https://prd.an-pcm.com/dam/non-product-assets",
+          "price": 3.59,
+          "oldPrice": 4.49,
+          "discountPercent": 20,
+          "source": "https://www.aldi.fr/",
+          "verifiedBySource": true,
+          "checkedAt": "2026-11-23T16:15:51.339945+00:00"
+        }
+      ]
     },
     {
       "store": "Magasins U",
