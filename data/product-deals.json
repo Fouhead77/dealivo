@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T15:51:11.984982+00:00",
+  "updatedAt": "2026-11-26T15:30:24.067132+00:00",
   "policy": "Product deals require an explicit current price plus a source-documented discount. No inferred old prices.",
   "sources": [
     {
@@ -41,7 +41,7 @@
           "discountPercent": 20,
           "source": "https://www.aldi.fr/",
           "verifiedBySource": true,
-          "checkedAt": "2026-11-25T15:51:14.904982+00:00"
+          "checkedAt": "2026-11-26T15:30:26.278264+00:00"
         },
         {
           "store": "ALDI",
@@ -51,7 +51,7 @@
           "discountPercent": 20,
           "source": "https://www.aldi.fr/",
           "verifiedBySource": true,
-          "checkedAt": "2026-11-25T15:51:14.905036+00:00"
+          "checkedAt": "2026-11-26T15:30:26.278320+00:00"
         },
         {
           "store": "ALDI",
@@ -61,7 +61,7 @@
           "discountPercent": 20,
           "source": "https://www.aldi.fr/",
           "verifiedBySource": true,
-          "checkedAt": "2026-11-25T15:51:14.905065+00:00"
+          "checkedAt": "2026-11-26T15:30:26.278353+00:00"
         },
         {
           "store": "ALDI",
@@ -71,7 +71,7 @@
           "discountPercent": 20,
           "source": "https://www.aldi.fr/",
           "verifiedBySource": true,
-          "checkedAt": "2026-11-25T15:51:14.905089+00:00"
+          "checkedAt": "2026-11-26T15:30:26.278378+00:00"
         },
         {
           "store": "ALDI",
@@ -81,7 +81,7 @@
           "discountPercent": 20,
           "source": "https://www.aldi.fr/",
           "verifiedBySource": true,
-          "checkedAt": "2026-11-25T15:51:14.907547+00:00"
+          "checkedAt": "2026-11-26T15:30:26.281160+00:00"
         },
         {
           "store": "ALDI",
@@ -91,7 +91,7 @@
           "discountPercent": 20,
           "source": "https://www.aldi.fr/",
           "verifiedBySource": true,
-          "checkedAt": "2026-11-25T15:51:14.907581+00:00"
+          "checkedAt": "2026-11-26T15:30:26.281201+00:00"
         }
       ]
     },
